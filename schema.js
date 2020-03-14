@@ -31,8 +31,8 @@ export default `
   }
 
   type Mutation {
-    createMahasiswa(nama: String!, matkulId: ID!, pembimbingId: ID!): Mahasiswa!
-    updateMahasiswa(id: ID!, name: String, matkulId: ID!, pembimbingId: ID!): Mahasiswa!
+    createMahasiswa(nama: String!): Mahasiswa!
+    updateMahasiswa(id: ID!, nama: String): Mahasiswa!
     deleteMahasiswa(id: ID!): Mahasiswa!
 
     createMatkul(matkul: String!, mahasiswaId:ID!): Matkul!

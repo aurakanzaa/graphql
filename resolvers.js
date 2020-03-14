@@ -3,7 +3,12 @@ export default {
         matkuls: (parent, args, context, info) => parent.getMatkuls(),
         pembimbings: (parent, args, context, info) => parent.getPembimbings()
     },
-    
+    Matkul: {
+        mahasiswa: (parent, args, context, info) => parent.getMahasiswa()
+    },
+    Pembimbing: {
+        mahasiswa: (parent, args, context, info) => parent.getMahasiswa()
+    },
     Query: {
         //mahasiswa
         mahasiswas: (
